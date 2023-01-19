@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html onclick="clickCheck()">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="main.css">
+	<title>Word picker</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+	<input type="text" id="inputField" placeholder="Add word" spellcheck="false">
+	<div id="bin" style="background-color: red; height: 100%; position: absolute; width: 1%; left: 0; top: 0; opacity: 0;"></div>
+	<div id="div1"><div id="iText">Learn</div></div>
+	<div id="div2"><div id="iText">Repeat</div></div>
+	<div id="back">
+		<button id="randomWordButton" onclick="generateRandomWord()">Random word 🎲</button>
+		<div id="wordDisplay"></div>
+	</div>
+	<script src="main.js"></script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
