@@ -1,0 +1,119 @@
+body{
+	overflow: hidden;
+	background-color: #F3F3F3;
+}
+::selection {
+	color: black;
+  	background: #DEDEDE;
+}
+
+#inputField{
+	font-family: Arial, Helvetica, sans-serif;	
+	color: #3D3D3D;
+	position: absolute;
+	width: 40%;
+	height: 6%;
+	left: 30%;
+	bottom: 3%;
+	font-size: 3vmin;
+	padding: 0.2em 1em 0.2em 1em;
+	user-select: none;
+	outline: none;
+	border: 0;
+	border-radius: 1000px;
+}
+
+
+#task{
+	font-family: Arial, Helvetica, sans-serif;	
+	color: #3D3D3D;
+	background-color: white;
+	border-radius: 10px;
+	padding: 0.3em 0.6em 0.3em 0.6em;
+	user-select: none; 
+	font-size: 2vmin; 
+	cursor: move; 
+	position: absolute; 
+	left: 200px; 
+	top: 200px; 
+	-webkit-box-shadow:0px 0px 39px 10px rgba(133,133,133,0.22);
+	-moz-box-shadow: 0px 0px 39px 10px rgba(133,133,133,0.22);
+	box-shadow: 0px 0px 39px 10px rgba(133,133,133,0.22);
+	white-space: nowrap;
+}
+
+#back{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	opacity: 1;
+	z-index: 10000;
+	pointer-events: auto;
+}
+
+
+#randomWordButton{
+	position: inherit;
+	width: 12%;
+	left: 44%;
+	bottom: 4%;
+	padding: 0px 20px 0px 20px;
+	border:0;
+	background-color: #FAFAFA;
+	border-radius: 999px;
+	height: 6.3%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2vmin;
+	cursor: pointer;
+	user-select: none;
+}
+#randomWordButton:hover{
+	background-color: rgb(240, 240, 240);
+}
+#randomWordButton:active{
+	background-color: rgb(230, 230, 230);
+}
+
+
+#wordDisplay{
+	position: inherit;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3vmin;
+	user-select: none;
+}
+
+#div1{
+	width: 50%;
+	height: 100%;
+	background-color: #FCBF0A;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -10;
+}
+#div2{
+	width: 50%;
+	height: 100%;
+	background-color: #ABCE23;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	z-index: -10;
+}
+
+#iText{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #3B3B3B;
+	opacity: 0.14;
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	user-select: none;
+	font-size: 8vw;
+	z-index: 100;
+	z-index: -9;
+}
