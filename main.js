@@ -2,7 +2,7 @@ var inputField = document.getElementById("inputField")
 var titleField = document.getElementById("titleField")
 
 var db_key = localStorage.getItem("db_key");
-document.title = db_ley+"";
+document.title = db_key;
 
 var movingMouse;
 var amountOfWords = 0;
